@@ -1,5 +1,4 @@
 import PyPDF2
-import re
 
 #Abrir o arquivo em modo leitura e lendo em binário
 pdf_file = open('C:\\Users\\jpiau\\Documents\\GitHub\\LeitorDePDF\\TestePDFTexto1.pdf','rb')
