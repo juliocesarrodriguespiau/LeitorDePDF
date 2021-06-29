@@ -6,7 +6,7 @@ pdf_file = open('C:\\Users\\jpiau\\Documents\\GitHub\\LeitorDePDF\\TestePDFTexto
 #Pegar os dados do PDF do binário
 dados_do_pdf =  PyPDF2.PdfFileReader(pdf_file)
 
-#Contar o número de páginas no PDF
+#Contar o número de páginas no PDF julio
 print('Número de páginas: ' + str(dados_do_pdf.numPages))
 
 pagina1 = dados_do_pdf.getPage(0)
